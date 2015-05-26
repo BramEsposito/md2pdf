@@ -12,7 +12,8 @@ Test using ```md2pdf Readme.md```
 
 ### Todo
 
-[Add support for tables](https://github.com/trentm/python-markdown2/wiki/Extras)
+- [Add support for tables](https://github.com/trentm/python-markdown2/wiki/Extras)
+- Add CSS support for tables
 
 ### Acknowledgments
 

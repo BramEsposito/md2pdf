@@ -30,7 +30,8 @@ DEFAULT_EXTRAS = [
     'pyshell',
     'smarty-pants',
     'tag-friendly',
-    'wiki-tables'
+    'wiki-tables', 
+    "tables"
 ]
 
 def main(md_file, css_file):
@@ -39,7 +40,7 @@ def main(md_file, css_file):
     if css_file is not None:
         with open(css_file) as f:
             DEFAULT_CSS += f.read()
-    
+
     # read markdown
     with open(md_file) as f:
         md = f.read()
